@@ -1,9 +1,9 @@
 
 
 .App {
-  background-image: url('https://www.alamy.com/slack-social-media-social-network-concept-background-illustration-istanbul-turkey-image419072677.html');
-  background-color: #bfbfbf;
-  min-height: 90vh;
+  background: #d3d3d3 url("../bg.png") no-repeat;
+  background-size: 100%;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -27,4 +27,8 @@ input {
   text-decoration: none;
   font-size: calc(10px + 0.5vmin);
   border: 0;
+}
+
+.welcomeMessage{
+ color: #000;
 }
