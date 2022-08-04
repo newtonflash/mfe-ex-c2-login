@@ -3,7 +3,7 @@
 .App {
   background: #d3d3d3 url("../bg.png") no-repeat;
   background-size: 100%;
-  min-height: 70vh;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -13,6 +13,10 @@
   color: white;
 }
 
+h3 {
+  color: #000;
+}
+
 input {
   margin-left: 20px;
   font-size: calc(10px + 0.5vmin);
@@ -20,7 +24,7 @@ input {
   border: 0;
 }
 
-.primary-btn {
+.primary-btn, .secondary-btn {
   padding: 10px 20px;
   color: #fff;
   background-color: rgb(90, 20, 161);
@@ -28,6 +32,11 @@ input {
   font-size: calc(10px + 0.5vmin);
   border: 0;
 }
+
+.secondary-btn {
+  background-color: rgb(201, 119, 18);
+}
+
 
 .welcomeMessage{
  color: #000;
